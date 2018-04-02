@@ -1,0 +1,124 @@
+clear       
+       
+echo "        ___    __________            __"
+echo "       /   |  / / /_  __/___  ____  / /____"
+echo "      / /| | / / / / / / __ \/ __ \/ / ___/"
+echo "     / ___ |/ / / / / / /_/ / /_/ / (__  )"
+echo "    /_/  |_/_/_/ /_/  \____/\____/_/____/"
+echo "          X--------------------------X"
+echo "          |         BY Ardi          |"
+echo "          X--------------------------X"
+echo " 01) D-TECT "
+echo " 02) GoldenEye "
+echo " 03) Zoom "
+echo " 04) CyberScan "
+echo " 05) Breacher "
+echo " 06) XSSTrike "
+echo " 07) Hat Cloud "
+echo " 08) DOST "
+echo " 09) Hakku Framework "
+echo " 10) Exit By Ardi "
+read eue
+
+if [ $eue = 1 ] || [ $eue = 01 ]
+then														
+clear
+echo " Installing D-TECT "
+sleep 1
+apt update && apt upgrade
+apt install git
+apt install python2
+git clone https://github.com/shawarkhanethicalhacker/D-TECT
+fi
+
+if [ $eue = 2 ] || [ $eue = 02 ]
+then
+clear
+echo " Install Websploit "
+sleep 1
+apt update && apt upgrade
+apt install python2
+apt install git
+git clone https://github.com/jseidl/GoldenEye
+fi
+
+if [ $eue = 3 ] || [ $eue = 03 ]
+then
+clear
+echo " Installing Zoom "
+sleep 1
+apt install git
+apt install python2
+git clone https://github.com/UltimateHackers/Zoom
+fi
+
+if [ $eue = 4 ] || [ $eue = 04 ]
+then
+clear
+echo " installing CyberScan "
+sleep 1
+apt update && apt upgrade
+apt install python2
+apt install git
+git clone https://github.com/medbenali/CyberScan
+fi
+
+if [ $eue = 5 ] || [ $eue = 05 ]
+then
+cleat
+echo " Installing Brecher"
+sleep 1
+apt install git
+apt install python2
+git clone https://github.com/UltimateHackers/Breache
+fi
+
+if [ $eue = 6 ] || [ $eue = 06 ]
+then
+clear
+echo " Installing XSSTRike "
+sleep 1
+apt install python2
+apt install git
+git clone https://github.com/UltimateHackers/XSStrike
+fi
+
+if [ $eue = 7 ] || [ $eue = 07 ]
+then
+clear
+echoo " Installing Hat Cloud "
+sleep 1
+apt update && apt upgrade
+apt install git
+git clone https://github.com/HatBashBR/HatCloud
+fi
+
+if [ $eue = 8 ] || [ $eue = 08 ]
+then
+clear
+echo " Installing DOST "
+sleep 1
+apt update && apt upgrade
+apt install git
+git clone https://github.com/verluchie/dost-attack
+fi
+
+if [ $eue = 9 ] || [ $eue = 09 ]
+then
+clear
+echo " Installing Hakku Framework "
+sleep 1
+apt install python2
+apt install python
+apt install git
+git clone https://github.com/4shadoww/hakkuframework
+fi
+
+if [ $eue = 10 ] || [ $eue = 10 ]
+then
+echo " GoodBayy ;V "
+sleep 1
+sleep 1
+sleep 1
+exit
+fi
